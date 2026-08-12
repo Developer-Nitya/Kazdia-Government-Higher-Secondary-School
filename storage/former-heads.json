@@ -1,0 +1,11 @@
+[
+  {
+    "id": "sample-former-head-1",
+    "serial": "১",
+    "name": "সাবেক প্রতিষ্ঠান প্রধানের নাম",
+    "designation": "প্রধান শিক্ষক",
+    "period": "মেয়াদকাল লিখুন",
+    "bio": "এখানে সংক্ষিপ্ত পরিচিতি লিখুন।",
+    "photo": "../assets/img/logo.jpg"
+  }
+]

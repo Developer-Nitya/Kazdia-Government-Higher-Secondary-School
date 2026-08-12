@@ -1,0 +1,23 @@
+{
+    "founder": {
+        "title": "প্রতিষ্ঠাতা",
+        "name": "প্রতিষ্ঠাতার নাম",
+        "designation": "প্রতিষ্ঠাতা, কাজদিয়া সরকারি উচ্চ মাধ্যমিক বিদ্যালয়",
+        "image": "../assets/img/founder.svg",
+        "content": "এখানে প্রতিষ্ঠাতার বিস্তারিত তথ্য লিখুন।"
+    },
+    "principal": {
+        "title": "অধ্যক্ষ",
+        "name": "অধ্যক্ষের নাম",
+        "designation": "অধ্যক্ষ, কাজদিয়া সরকারি উচ্চ মাধ্যমিক বিদ্যালয়",
+        "image": "../assets/img/principal.svg",
+        "content": "এখানে অধ্যক্ষের বিস্তারিত তথ্য লিখুন।"
+    },
+    "teacher-organization": {
+        "title": "শিক্ষক সংগঠন",
+        "name": "শিক্ষক পরিষদ",
+        "designation": "শিক্ষক-কর্মচারী কল্যাণ ও একাডেমিক উন্নয়ন সংগঠন",
+        "image": "../assets/img/teacher-organization.svg",
+        "content": "এখানে শিক্ষক সংগঠনের বিস্তারিত তথ্য লিখুন।"
+    }
+}
