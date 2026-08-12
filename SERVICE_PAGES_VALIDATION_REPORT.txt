@@ -1,0 +1,34 @@
+SERVICE PAGES VALIDATION REPORT
+================================
+
+Source archive: Kazdia_focal_point_hotline_updated.zip
+Homepage service sub-sections detected: 15
+Homepage service links detected: 59
+New individual pages created in pages/: 59
+Service JSON records: 59
+Default service JSON records: 59
+
+Validation results
+------------------
+PHP files checked: 12 — PASS
+JavaScript files checked: 7 — PASS
+JSON files parsed: 5 — PASS
+Local HTML links/assets checked: 89 HTML files — PASS
+Missing local links/assets: 0
+Service page hero/header present: PASS
+Service page footer present: PASS
+Homepage service links target local pages: PASS
+Site-content API returns 15 service groups: PASS
+Service-page API valid request: PASS
+Service-page API invalid request handling: PASS
+Admin login and 59-page selector rendering: PASS
+Hosting checks: 15 PASS / 0 FAIL
+
+Editable data
+-------------
+Database: storage/service-pages.json
+Default database: storage/service-pages-defaults.json
+Admin editor: admin/service-pages.php
+Upload directory: uploads/service-pages/
+Public API: api/service-pages.php
+Frontend renderer: assets/js/service-page.js

@@ -1,0 +1,42 @@
+ACADEMIC RESOURCE PAGES VALIDATION REPORT
+========================================
+
+Validation date: 2026-08-08
+
+Implemented:
+- Homepage education cards: 4; all open in a new tab.
+- Academic program pages: 4; each has 4 colorful sidebar links.
+- Academic resource detail pages: 16.
+- Home and parent-program navigation: available on every new resource page.
+- Editable JSON records: 16 programResources records.
+- Admin editor: program link editor + 16 resource page editors.
+
+Automated checks:
+- PHP syntax files checked: 9; errors: 0
+- JavaScript syntax files checked: 6; errors: 0
+- JSON files checked: 3; errors: 0
+- HTML files checked: 30; missing local links/assets: 0
+- Hosting compatibility checks: all PASS in the build environment.
+
+Resource pages:
+- pages/higher-secondary-bm-class-teachers.html
+- pages/higher-secondary-bm-institutional-results.html
+- pages/higher-secondary-bm-public-results.html
+- pages/higher-secondary-bm-teachers-staff.html
+- pages/higher-secondary-class-teachers.html
+- pages/higher-secondary-institutional-results.html
+- pages/higher-secondary-public-results.html
+- pages/higher-secondary-teachers-staff.html
+- pages/secondary-class-teachers.html
+- pages/secondary-institutional-results.html
+- pages/secondary-public-results.html
+- pages/secondary-teachers-staff.html
+- pages/secondary-vocational-class-teachers.html
+- pages/secondary-vocational-institutional-results.html
+- pages/secondary-vocational-public-results.html
+- pages/secondary-vocational-teachers-staff.html
+
+Hosting reminder:
+- Change SCHOOL_ADMIN_PASSWORD before publishing.
+- Keep storage/ and uploads/ writable (755 or 775 depending on hosting).
+- Run hosting-check.php once after upload, then delete it.

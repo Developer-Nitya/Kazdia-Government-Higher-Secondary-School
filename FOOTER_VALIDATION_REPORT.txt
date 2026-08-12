@@ -1,0 +1,44 @@
+কাজদিয়া সরকারি উচ্চ মাধ্যমিক বিদ্যালয়
+প্রফেশনাল ফুটার ভ্যালিডেশন রিপোর্ট
+================================================
+তারিখ: ২৭ জুলাই ২০২৬
+মোট পরীক্ষা: 36
+সফল: 36
+ব্যর্থ: 0
+
+[PASS] JavaScript: assets/js/content-data.js
+[PASS] JavaScript: assets/js/content-editor.js
+[PASS] JavaScript: assets/js/dynamic-content.js
+[PASS] JavaScript: assets/js/gallery-viewer.js
+[PASS] JavaScript: assets/js/main.js
+[PASS] JavaScript: assets/js/site-settings.js
+[PASS] PHP: admin/content.php — No syntax errors detected in /mnt/data/kazdia_footer_work/Kazdia_homepage_design/admin/content.php
+[PASS] PHP: admin/former-heads.php — No syntax errors detected in /mnt/data/kazdia_footer_work/Kazdia_homepage_design/admin/former-heads.php
+[PASS] PHP: admin/index.php — No syntax errors detected in /mnt/data/kazdia_footer_work/Kazdia_homepage_design/admin/index.php
+[PASS] PHP: admin/national-anthem.php — No syntax errors detected in /mnt/data/kazdia_footer_work/Kazdia_homepage_design/admin/national-anthem.php
+[PASS] PHP: api/former-heads.php — No syntax errors detected in /mnt/data/kazdia_footer_work/Kazdia_homepage_design/api/former-heads.php
+[PASS] PHP: api/site-content.php — No syntax errors detected in /mnt/data/kazdia_footer_work/Kazdia_homepage_design/api/site-content.php
+[PASS] PHP: backend/config.php — No syntax errors detected in /mnt/data/kazdia_footer_work/Kazdia_homepage_design/backend/config.php
+[PASS] PHP: backend/helpers.php — No syntax errors detected in /mnt/data/kazdia_footer_work/Kazdia_homepage_design/backend/helpers.php
+[PASS] PHP: hosting-check.php — No syntax errors detected in /mnt/data/kazdia_footer_work/Kazdia_homepage_design/hosting-check.php
+[PASS] JSON: storage/former-heads.json
+[PASS] JSON: storage/media-settings.json
+[PASS] JSON: storage/site-content.json
+[PASS] CSS: assets/css/shed-services.css
+[PASS] CSS: assets/css/styles.css
+[PASS] HTML: index.html — footer=1, duplicates=[]
+[PASS] HTML: pages/brief-history.html — footer=1, duplicates=[]
+[PASS] HTML: pages/contact.html — footer=1, duplicates=[]
+[PASS] HTML: pages/former-heads.html — footer=1, duplicates=[]
+[PASS] HTML: pages/gallery-viewer.html — footer=1, duplicates=[]
+[PASS] HTML: pages/gallery.html — footer=1, duplicates=[]
+[PASS] HTML: pages/higher-secondary-bm.html — footer=1, duplicates=[]
+[PASS] HTML: pages/higher-secondary.html — footer=1, duplicates=[]
+[PASS] HTML: pages/notice.html — footer=1, duplicates=[]
+[PASS] HTML: pages/privacy-policy.html — footer=1, duplicates=[]
+[PASS] HTML: pages/secondary-vocational.html — footer=1, duplicates=[]
+[PASS] HTML: pages/secondary.html — footer=1, duplicates=[]
+[PASS] HTML: pages/services.html — footer=1, duplicates=[]
+[PASS] HTML: pages/terms-and-conditions.html — footer=1, duplicates=[]
+[PASS] Footer internal links — []
+[PASS] PHP content API — success=True, footerLinks=6
