@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">স্কাউট কার্যক্রম</title>
+  <desc id="desc">শৃঙ্খলা ও নেতৃত্ব</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b8a3e"/>
+      <stop offset="0.58" stop-color="#1f6f33"/>
+      <stop offset="1" stop-color="#0f3d22"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.06"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="900" height="560" rx="34" fill="url(#bg)"/>
+  <circle cx="118" cy="96" r="72" fill="#ffffff" opacity="0.10"/>
+  <circle cx="805" cy="470" r="128" fill="#ffffff" opacity="0.08"/>
+  <path d="M0 408c104-70 190-70 284 0s194 74 322 0 220-92 294-22v174H0z" fill="#ffffff" opacity="0.10"/>
+  <g filter="url(#shadow)">
+    <rect x="90" y="78" width="720" height="404" rx="28" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.34" stroke-width="3"/>
+    <rect x="135" y="122" width="630" height="238" rx="22" fill="#ffffff" opacity="0.15"/>
+    <g transform="translate(374 158)">
+      <rect x="0" y="0" width="152" height="112" rx="18" fill="#ffffff" opacity="0.88"/>
+      <circle cx="51" cy="43" r="18" fill="#2b8a3e" opacity="0.84"/>
+      <path d="M22 96 62 58l38 35 24-23 40 26H22z" fill="#1f6f33" opacity="0.84"/>
+    </g>
+    <text x="450" y="420" text-anchor="middle" fill="#ffffff" font-size="52" font-weight="700" font-family="Noto Sans Bengali, SolaimanLipi, Arial, sans-serif">স্কাউট কার্যক্রম</text>
+    <text x="450" y="462" text-anchor="middle" fill="#fff7d6" font-size="26" font-weight="600" font-family="Noto Sans Bengali, SolaimanLipi, Arial, sans-serif">ছবির অ্যালবাম দেখুন</text>
+  </g>
+</svg>

@@ -1,0 +1,288 @@
+/* =========================================================
+   SHED service boxes custom stylesheet
+   Purpose: Keep the transplanted service-box design separate
+   from the original Kazdia homepage stylesheet.
+   ========================================================= */
+
+/* START: Bengali web font loading section */
+@import url("https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --shed-bangla-font: "Anek Bangla", "Noto Sans Bengali", "Hind Siliguri", "SolaimanLipi", "Kalpurush", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+/* END: Bengali web font loading section */
+
+/* START: SHED service grid layout section */
+.shed-service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 14px;
+  align-items: stretch;
+}
+/* END: SHED service grid layout section */
+
+/* START: SHED service card visual design section */
+.shed-service-card {
+  --shed-card-left-space: 14px;
+  --shed-icon-column: 60px;
+  --shed-card-column-gap: 10px;
+
+  position: relative;
+  display: grid;
+  grid-template-columns: var(--shed-icon-column) minmax(0, 1fr);
+  grid-template-areas:
+    "serviceIcon serviceTitle"
+    "serviceIcon serviceSummary"
+    "serviceLinks serviceLinks";
+  column-gap: var(--shed-card-column-gap);
+  row-gap: 0;
+  min-height: 140px;
+  padding: 12px 12px 12px var(--shed-card-left-space);
+  overflow: hidden;
+  border: 1px solid #d9ead7;
+  border-radius: 10px;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.96), rgba(248,253,247,0.98)),
+    radial-gradient(circle at top right, rgba(123,192,67,0.18), transparent 38%);
+  box-shadow: 0 8px 22px rgba(24, 90, 41, 0.08);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+.shed-service-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 5px;
+  background: linear-gradient(180deg, #7ac143, #6d3192);
+}
+
+.shed-service-card:hover,
+.shed-service-card:focus-within {
+  transform: translateY(-3px);
+  border-color: #9bd473;
+  box-shadow: 0 14px 30px rgba(24, 90, 41, 0.14);
+}
+/* END: SHED service card visual design section */
+
+/* START: SHED service icon section */
+.service-icon-wrap {
+  grid-area: serviceIcon;
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border: 1px solid #dff0d5;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.shed-service-card .service-icon-wrap img,
+.shed-service-card > img {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+}
+/* END: SHED service icon section */
+
+/* START: SHED service text content section */
+.service-content {
+  min-width: 0;
+  display: contents;
+}
+
+.shed-service-card h3 {
+  grid-area: serviceTitle;
+  margin: 0 0 4px;
+  color: #2f6f1f;
+  font-family: var(--shed-bangla-font);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.22;
+}
+
+.service-summary {
+  grid-area: serviceSummary;
+  margin: 0 0 4px;
+  color: #5c6670;
+  font-family: var(--shed-bangla-font);
+  font-size: 13px;
+  line-height: 1.32;
+}
+/* END: SHED service text content section */
+
+/* START: SHED service link list section */
+.shed-service-links {
+  grid-area: serviceLinks;
+  display: grid;
+  gap: 1px;
+  margin: 6px 0 0 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--shed-bangla-font);
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.shed-service-links li {
+  display: grid;
+  grid-template-columns: 12px minmax(0, 1fr);
+  align-items: baseline;
+  column-gap: 4px;
+  min-width: 0;
+  padding-left: 0;
+  margin: 0;
+}
+
+.shed-service-links li::before {
+  content: "›";
+  position: static;
+  color: #6d3192;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1;
+  transform: translateY(0.04em);
+}
+
+.shed-service-links a {
+  display: block;
+  min-width: 0;
+  color: #2b2f33;
+  font-family: var(--shed-bangla-font);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0;
+  word-break: normal;
+  overflow-wrap: normal;
+  text-decoration: none;
+  border-bottom: 1px dotted transparent;
+}
+
+.shed-service-links a:hover,
+.shed-service-links a:focus {
+  color: #6d3192;
+  border-bottom-color: #6d3192;
+}
+/* END: SHED service link list section */
+
+/* START: SHED service expand and collapse visibility section */
+.shed-service-grid[data-service-expanded="false"] .shed-service-extra,
+.shed-service-card.is-hidden {
+  display: none;
+}
+
+.shed-service-toggle-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.shed-service-toggle-wrap[hidden],
+.shed-service-toggle-btn[hidden] {
+  display: none !important;
+}
+
+.shed-service-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 40px;
+  padding: 9px 18px;
+  border: 1px solid #8cc76b;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #ffffff, #f2faef);
+  color: #2f6f1f;
+  font-family: var(--shed-bangla-font);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.15;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(24, 90, 41, 0.10);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.shed-service-toggle-btn:hover,
+.shed-service-toggle-btn:focus {
+  transform: translateY(-2px);
+  border-color: #6d3192;
+  color: #6d3192;
+  box-shadow: 0 12px 24px rgba(24, 90, 41, 0.15);
+}
+
+.shed-service-toggle-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: rgba(109, 49, 146, 0.10);
+  color: #6d3192;
+  font-size: 15px;
+  line-height: 1;
+}
+/* END: SHED service expand and collapse visibility section */
+
+/* START: SHED service page layout override section */
+.shed-service-grid.service-page-grid {
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+/* END: SHED service page layout override section */
+
+/* START: SHED service responsive section */
+@media (max-width: 760px) {
+  .shed-service-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .shed-service-card {
+    --shed-card-left-space: 13px;
+    --shed-icon-column: 50px;
+    --shed-card-column-gap: 9px;
+
+    grid-template-columns: var(--shed-icon-column) minmax(0, 1fr);
+    grid-template-areas:
+      "serviceIcon serviceTitle"
+      "serviceIcon serviceSummary"
+      "serviceLinks serviceLinks";
+    column-gap: var(--shed-card-column-gap);
+    row-gap: 0;
+    min-height: auto;
+    padding: 11px 10px 11px var(--shed-card-left-space);
+  }
+
+  .service-icon-wrap {
+    width: 48px;
+    height: 48px;
+  }
+
+  .shed-service-card .service-icon-wrap img,
+  .shed-service-card > img {
+    width: 38px;
+    height: 38px;
+  }
+
+  .shed-service-card h3 {
+    font-size: 16px;
+  }
+
+  .service-summary,
+  .shed-service-links a {
+    font-size: 12.5px;
+  }
+
+  .shed-service-toggle-wrap {
+    margin-top: 14px;
+  }
+
+  .shed-service-toggle-btn {
+    width: 100%;
+    max-width: 310px;
+  }
+}
+/* END: SHED service responsive section */

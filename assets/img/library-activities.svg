@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="368" height="288" viewBox="0 0 368 288" role="img" aria-labelledby="title desc">
+  <!-- START: পাঠাগার কার্যক্রম SVG illustration section -->
+  <title id="title">পাঠাগার কার্যক্রম</title>
+  <desc id="desc">লাইব্রেরি ও পাঠাগার কার্যক্রমের প্রতীকী ছবি</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#14651f"/>
+      <stop offset="0.55" stop-color="#2d8a34"/>
+      <stop offset="1" stop-color="#0c4d18"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="0.24" cy="0.18" r="0.72">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="368" height="288" rx="24" fill="url(#bg)"/>
+  <rect width="368" height="288" rx="24" fill="url(#shine)"/>
+  <rect x="52" y="84" width="264" height="160" rx="20" fill="#ffffff" opacity="0.92"/>
+  <rect x="84" y="112" width="46" height="104" rx="8" fill="#2d8a34"/>
+  <rect x="142" y="104" width="46" height="112" rx="8" fill="#d71920"/>
+  <rect x="200" y="118" width="46" height="98" rx="8" fill="#f6be00"/>
+  <rect x="258" y="108" width="32" height="108" rx="7" fill="#14651f"/>
+  <line x1="72" y1="230" x2="300" y2="230" stroke="#14651f" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="292" cy="82" r="30" fill="#f6be00" opacity="0.9"/>
+  <path d="M80 272c58-20 118-20 176 0 22 8 44 8 64 0" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+  <text x="184" y="44" fill="#ffffff" font-family="Noto Sans Bengali, SolaimanLipi, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">পাঠাগার কার্যক্রম</text>
+  <!-- END: পাঠাগার কার্যক্রম SVG illustration section -->
+</svg>

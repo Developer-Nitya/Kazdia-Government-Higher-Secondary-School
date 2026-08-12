@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="520" viewBox="0 0 420 520" role="img" aria-label="অধ্যক্ষ">
+  <rect width="420" height="520" fill="#f8f8f8"/>
+  <rect x="24" y="24" width="372" height="472" rx="24" fill="#fff" stroke="#d7d7d7"/>
+  <circle cx="210" cy="156" r="74" fill="#f0c7a8"/>
+  <path d="M120 430c14-104 45-156 90-156s76 52 90 156z" fill="#185a9d"/>
+  <path d="M160 296l50 64 50-64" fill="#fff" opacity=".95"/>
+  <circle cx="185" cy="145" r="7" fill="#333"/>
+  <circle cx="235" cy="145" r="7" fill="#333"/>
+  <path d="M184 184c17 13 35 13 52 0" fill="none" stroke="#8d4b31" stroke-width="6" stroke-linecap="round"/>
+  <text x="210" y="466" text-anchor="middle" font-size="26" fill="#14651f" font-family="Arial, sans-serif" font-weight="700">অধ্যক্ষ</text>
+  <text x="210" y="494" text-anchor="middle" font-size="18" fill="#555" font-family="Arial, sans-serif">আপনার নাম</text>
+</svg>

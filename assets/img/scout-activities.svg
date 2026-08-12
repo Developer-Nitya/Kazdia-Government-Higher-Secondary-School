@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="368" height="288" viewBox="0 0 368 288" role="img" aria-labelledby="title desc">
+  <!-- START: স্কাউট কার্যক্রম SVG illustration section -->
+  <title id="title">স্কাউট কার্যক্রম</title>
+  <desc id="desc">স্কাউট কার্যক্রমের প্রতীকী ছবি</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#14651f"/>
+      <stop offset="0.55" stop-color="#2d8a34"/>
+      <stop offset="1" stop-color="#0c4d18"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="0.24" cy="0.18" r="0.72">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="368" height="288" rx="24" fill="url(#bg)"/>
+  <rect width="368" height="288" rx="24" fill="url(#shine)"/>
+  <circle cx="184" cy="92" r="36" fill="#f6be00"/>
+  <path d="M123 182c14-38 36-58 61-58s47 20 61 58v64H123v-64Z" fill="#ffffff" opacity="0.94"/>
+  <path d="M148 166h72l-24 42h-24l-24-42Z" fill="#2d8a34"/>
+  <path d="M184 123v118" stroke="#14651f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M90 108l45 20-34 78-42-19 31-79Z" fill="#d71920"/>
+  <path d="M278 108l-45 20 34 78 42-19-31-79Z" fill="#d71920"/>
+  <path d="M74 272c76-28 144-28 220 0" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.82"/>
+  <text x="184" y="44" fill="#ffffff" font-family="Noto Sans Bengali, SolaimanLipi, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">স্কাউট কার্যক্রম</text>
+  <!-- END: স্কাউট কার্যক্রম SVG illustration section -->
+</svg>

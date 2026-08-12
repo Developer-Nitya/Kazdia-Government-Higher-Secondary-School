@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="480" viewBox="0 0 420 480" role="img" aria-labelledby="title desc">
+  <title id="title">ফোকাল পয়েন্ট কর্মকর্তার ছবির স্থান</title>
+  <desc id="desc">সবুজ ও সোনালি রঙের পেশাদার প্রোফাইল প্লেসহোল্ডার</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#effaf1"/>
+      <stop offset="1" stop-color="#d8efdd"/>
+    </linearGradient>
+    <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12642b"/>
+      <stop offset="1" stop-color="#083d1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="480" rx="28" fill="url(#background)"/>
+  <circle cx="210" cy="158" r="92" fill="#f0c9a5"/>
+  <path d="M129 147c8-69 43-105 88-105 49 0 83 34 84 100-21-18-52-30-88-30-34 0-62 12-84 35Z" fill="#25342b"/>
+  <circle cx="177" cy="159" r="7" fill="#273027"/>
+  <circle cx="244" cy="159" r="7" fill="#273027"/>
+  <path d="M184 202c18 14 36 14 54 0" fill="none" stroke="#9c5d4b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M82 452c10-112 55-172 128-172s118 60 128 172Z" fill="url(#coat)"/>
+  <path d="m167 287 43 64 43-64-43-20Z" fill="#ffffff"/>
+  <path d="m201 333 9 18 10-18 12 97h-44Z" fill="#c21f32"/>
+  <circle cx="210" cy="239" r="18" fill="#e4b68f"/>
+  <rect x="24" y="24" width="372" height="432" rx="22" fill="none" stroke="#d4aa2f" stroke-width="5"/>
+  <text x="210" y="446" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#ffffff">ছবি আপলোড করুন</text>
+</svg>
